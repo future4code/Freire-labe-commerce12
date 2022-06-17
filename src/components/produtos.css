@@ -1,0 +1,76 @@
+.containerPro {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background-color: #fff;
+    align-items: center;
+}
+
+.containerPro h2 {
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.selecao {
+    background-color: #fff;
+}
+
+.selecao label {
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    background-color: #93939e;
+    padding: 5px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.imagem {
+    width: 140px;
+    height: 150px;
+}
+
+.imagem img {
+    width: 100%;
+    height: auto;
+}
+
+.texto {
+    align-items: center;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+}
+
+.texto h5 {
+    font-size: 8pt;
+}
+
+.texto p {
+    font-size: 10pt;
+}
+
+.produtos {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 95%;
+    height: 90%;
+}
