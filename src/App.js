@@ -1,8 +1,8 @@
 
 import React from "react";
-import "./produtos.css";
-import Filter from "./components/Filter";
-import Produto from "./components/Produto";
+import "./App.css";
+import Filter from "./components/Filter/Filter";
+import Produto from "./components/Produto/Produto";
 import styled from "styled-components";
 
 const produtos = [
