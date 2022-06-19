@@ -11,7 +11,8 @@ const Lista = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 15px;
-  margin-left: 3vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
 `;
 
 const Produtos = styled.div`
@@ -79,7 +80,9 @@ class Produto extends React.Component {
                 <Nome>
                   {produto.name} <br /> Valor: R$ {produto.value}
                 </Nome>
-                <Botao>adicionar ao carrinho</Botao>
+                <Botao onClick={() => this.props.addProduto(produto.id)}>
+                  adicionar ao carrinho
+                </Botao>
               </Produtos>
             );
           })}
